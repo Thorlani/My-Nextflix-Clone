@@ -40,8 +40,8 @@
 
 @media (max-width: 425px) {
     .title {
-        top: 10px;
-        left: 20px;
+        top: 20px;
+        left: 15px;
     }
     .btn {
         position: relative;
