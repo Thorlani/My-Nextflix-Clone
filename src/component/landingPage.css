@@ -33,3 +33,37 @@
     place-items: center;
     text-align: center;
 }
+
+.navbar2 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px 0px 40px;
+    color: #e50914;
+    position: relative;
+    z-index: 3;
+}
+
+.title2 {
+    height: 45px;
+    width: 167px;
+    object-fit: cover;
+}
+
+.title2:hover {
+    cursor: pointer;
+    transition: .4s ease-out;
+    transform: scale(1.1);
+}
+
+@media (max-width: 425px) {
+    .title2 {
+        top: 15px;
+        left: 10px;
+    }
+    .btn {
+        position: relative;
+        left: 20px;
+    }
+}
