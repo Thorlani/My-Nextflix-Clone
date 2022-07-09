@@ -1,0 +1,155 @@
+.header {
+    width: 100vw;
+    height: 540px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    right: 25px;
+    z-index: 4;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 100%;
+    object-fit:initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.gradienttt {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-blend-mode: overlay;
+    opacity: 0.4;
+    z-index: 2;
+}
+
+.wrapperr {
+    margin-left: 40px;
+    position: relative;
+    z-index: 4;
+    top: 210px;
+}
+
+.mainTitle {
+    max-width: 400px;
+    color: rgb(235, 232, 232);
+}
+
+.mainOverview {
+    color: rgb(235, 232, 232);
+    max-width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mainOverview:hover {
+    overflow: visible;
+    white-space: normal;
+}
+
+.btn1 {
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: black;
+    background-color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.btn2 {
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    margin: 10px 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn2:hover {
+    background-color: rgba(217, 214, 214, 0.5);
+}
+
+.release {
+    color: gray;
+    margin: 5px 0 10px;
+}
+
+.itemContainer {
+    display: flex;
+    overflow-x: scroll;
+    height: 230px;
+    overflow-y: hidden;
+    margin-top: 10px;
+}
+.itemContainer::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    background-color: black;
+    padding-top: 20px;
+}
+
+h1 {
+    color: white;
+    padding-left: 10px;
+}
+
+p {
+    color: white;
+}
+
+.rows {
+    position: relative;
+    height: 230px;
+}
+
+.image {
+    width: 300px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.image:hover {
+    transition: all .4s ease-out;
+    transform: scale(1.05);
+}
+
+.title-none {
+    display: none;
+}
+
+
+.title-active {
+    display: flex;
+    position: absolute;
+    bottom: 27px;
+    left: 20px;
+}
+
+@media (max-width: 425px) {
+    .wrapperr {
+        margin-left: 10px;
+    }
+}

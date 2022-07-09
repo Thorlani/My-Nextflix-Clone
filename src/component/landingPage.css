@@ -1,0 +1,35 @@
+.imageCover {
+    width: 100vw;
+    height: 697px;
+}
+
+.bg {
+    object-fit: cover;
+    width: 100vw;
+    height: 697px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.gradient {
+    width: 100%;
+    height: 697px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-blend-mode: overlay;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.topContent {
+    position: relative;
+    z-index: 3;
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}

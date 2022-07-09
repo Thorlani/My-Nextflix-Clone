@@ -1,0 +1,50 @@
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px 0px 40px;
+    color: #e50914;
+    position: relative;
+    z-index: 3;
+}
+
+.title {
+    height: 45px;
+    width: 167px;
+    object-fit: cover;
+}
+
+.title:hover {
+    cursor: pointer;
+    transition: .4s ease-out;
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.btn:hover {
+    background-color: #ff0d19;
+}
+
+@media (max-width: 425px) {
+    .title {
+        top: 5px;
+        left: -30px;
+    }
+    .btn {
+        position: relative;
+        left: 20px;
+    }
+}

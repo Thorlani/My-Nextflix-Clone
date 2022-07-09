@@ -1,0 +1,57 @@
+.lastSectionContainer {
+    width: 100vw;
+    padding: 70px 45px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.Topic {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.content {
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 10px;
+    font-weight: 400;
+    width: 640px;
+    height: 60px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.faqTitle {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.moveDown {
+    margin-bottom: 3.5rem;
+}
+
+.plusSign {
+    font-size: 44px;
+    font-weight: 300;
+}
+
+@media (max-width: 425px) {
+    .lastSectionContainer {
+        display: block;
+    }
+    .content {
+        width: 100%;
+    }
+    .faqTitle {
+        font-size: 16px;
+    }
+    .plusSign {
+        font-size: 32px;
+    }
+}

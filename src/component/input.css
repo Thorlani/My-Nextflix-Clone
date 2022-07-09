@@ -1,0 +1,49 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputLabel {
+    font-size: 18px;
+    min-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.email {
+    height: 60px;
+    width: 420px;
+    text-indent: 10px;
+    outline: none;
+}
+
+.button {
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.625rem;
+    height: 58px;
+    min-width: 74px;
+    padding: 7px 17px;
+    font-weight: 400;
+    color: white;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
+
+@media (max-width: 425px) {
+    .inputLabel {
+        font-size: 16px;
+        min-width: 100%;
+    }
+    .button {
+        font-size: 16px;
+    }
+}
